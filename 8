@@ -1,0 +1,12 @@
+M, N = map(int, input().split())
+
+A = []
+
+for i in range(M):
+    row = []
+    for j in range(N):
+        row.append(10 * (i+1))
+    A.append(row)
+
+for i in range(M):
+    print(A[i])
